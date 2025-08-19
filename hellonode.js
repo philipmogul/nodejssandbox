@@ -1,12 +1,8 @@
 // Importing modules into nodejs 
-var vals = require('./exported.js');
+const vals = require('./exported.js');
 
-
-function hey()
-{
-    console.log('Hello from NodeJs!\n')
-}
-
+function hey() { console.log('Hello from NodeJs!') }
 hey()
 
-vals.exportedlog("Hello Again !!!")
+vals.exportedlog("Hello Again!")
+console.log(vals.txt);
